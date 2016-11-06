@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">		
+		<title>Courses | Đại học trực tuyến FUNiX</title>
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="assets/css/bootstrap.css" />
+    	<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    	<!-- Style -->
+    	<link rel="stylesheet" href="assets/css/style.css"/>
+    	<!-- <link href="assets/css/reset.css" rel="stylesheet"/> -->
+    	<link rel="stylesheet" href="assets/css/font-awesome.min.css"/>
+    	<link rel="stylesheet" href="assets/css/font-awesome.css"/>   	
+	    <link rel="stylesheet" href="assets/css/bootstrap-social.css"/>
+
+	    <script type="text/javascript" src="assets/js/jquery.min.js" type="text/javascript"></script>
+        <script type="text/javascript" src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+        <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="assets/js/bootstrap.js"></script>
+	    <script type="text/javascript" src="assets/js/docs.js"></script>
+	    <script type="text/javascript" src="assets/js/jquery.cookie.js"></script>
+	    <script type="text/javascript" src="assets/js/scripts.js"></script>		 	    
+	</head>
+	<body>
+		<!-- Container-->
+		<div class="container-fluid ">
+			<!-- nav-->
+			<nav class="navbar navbar-default funix-nax" role="navigation">
+
+				<div class="navbar-header">															 
+					<button type="button" class="navbar-toggle tabs-toggle " data-toggle="collapse" data-target="#navbar-collapse">
+						<span class="tabs-btn fa fa-arrow-down fa-2x" aria-hidden="true"></span>
+					</button> 					
+				</div>
+				
+				<div class="collapse navbar-collapse" id="">
+				
+					<ul class="nav navbar-nav">
+						<li class="logo">
+							<a href="index.html">
+								<img src="assets/img/logo.png" alt="logo"/>
+							</a>
+						</li>
+						<li>
+							<a href="course.html">My Course</a>
+						</li>
+						<li>
+							<a href="leaderboard.html">Leader Board</a>
+						</li>
+						<li class="dropdown">
+							 <a href="#stay_here" class="dropdown-toggle" data-toggle="dropdown">Event<strong class="caret"></strong></a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#stay_here">Action</a>
+								</li>
+								<li>
+									<a href="#stay_here">Another action</a>
+								</li>
+								<li>
+									<a href="#stay_here">Something else here</a>
+								</li>
+								<li class="divider">
+								</li>
+								<li>
+									<a href="#stay_here">Separated link</a>
+								</li>
+								<li class="divider">
+								</li>
+								<li>
+									<a href="#stay_here">One more separated link</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+
+					<ul class="nav navbar-nav navbar-right">
+					
+						<li class="dropdown">
+							 <a href="#stay_here" class="dropdown-toggle" data-toggle="dropdown">Student ID<strong class="caret"></strong></a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#stay_here">Profile</a>
+								</li>
+								<li>
+									<a href="#stay_here">Account</a>
+								</li>
+								<li class="divider">
+								<li>
+									<a href="#stay_here">Sign Out</a>
+								</li>
+							</ul>
+						</li>
+					</ul>										
+				</div>				
+			</nav>
+			<!-- End Nav-->
+			
+			<!-- Mobile	Nav-->
+			<nav class=" navbar-default funix-nax hidden-md hidden-sm hidden-lg" role="navigation">
+				<div class="collapse navbar-collapse " id="navbar-collapse">
+					
+					<ul class="nav navbar-nav">
+						<li>
+							<a href="#stay_here">Home</a>
+						</li>
+						<li>
+							<a href="#stay_here">My Course</a>
+						</li>
+						<li>
+							<a href="#stay_here">Leader Broad</a>
+						</li>
+						<li class="dropdown">
+							 <a href="#stay_here" class="dropdown-toggle" data-toggle="dropdown">Event<strong class="caret"></strong></a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#stay_here">Action</a>
+								</li>
+								<li>
+									<a href="#stay_here">Another action</a>
+								</li>
+								<li>
+									<a href="#stay_here">Something else here</a>
+								</li>
+								<li class="divider">
+								</li>
+								<li>
+									<a href="#stay_here">Separated link</a>
+								</li>
+								<li class="divider">
+								</li>
+								<li>
+									<a href="#stay_here">One more separated link</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+
+					<ul class="nav navbar-nav navbar-right">
+					
+						<li class="dropdown">
+							 <a href="#stay_here" class="dropdown-toggle" data-toggle="dropdown">Student ID<strong class="caret"></strong></a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#stay_here">Profile</a>
+								</li>
+								<li>
+									<a href="#stay_here">Account</a>
+								</li>
+								<li class="divider">
+								<li>
+									<a href="#stay_here">Sign Out</a>
+								</li>
+							</ul>
+						</li>
+					</ul>										
+				</div>
+			</nav>
+			<!-- End Mobile Nav -->
+
+			<!-- Header -->
+			<header>
+				<div class="row no-margin">
+					<div class="col-md-12 no-padding">
+						<div class="view">
+		                    <img class="" src="assets/img/banner.jpg" />
+		                    
+	                    	<form action="" class="search-form navbar-form navbar-right no-padding " role="search">
+				                <div class="form-group has-feedback">
+				            		<label for="search" class="sr-only">Search</label>
+				            		<input type="text" class="form-control funix-search" name="search" id="search" placeholder="search">
+				              		<span class="glyphicon glyphicon-search form-control-feedback"></span>
+				            	</div>
+				   			</form>
+				   			<h1 class="banner-expert hidden-xs">Learn with the expert</h1>
+				   			<h1 class="banner-cloud hidden-xs">
+				   				<i class="fa fa-paper-plane fa-2x" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;<i class="fa fa-cloud" aria-hidden="true"></i>&nbsp;&nbsp;<i class="fa fa-cloud fa-2x" aria-hidden="true"></i>&nbsp;&nbsp;<i class="fa fa-cloud fa-3x" aria-hidden="true"></i>
+				   			</h1>  
+	                	</div>								
+					</div>
+				</div>
+							
+			</header>		
+			<!-- End header-->
+		
+			<!-- Section -->
+			<section>				
+				<!-- Nav tabs -->			
+				<div class="navbar navbar-default funix-tabs-control" role="navigation">						
+					 <ul class="nav nav-tabs funix-tabs"  role="tablist">
+					    <li role="presentation" class="active tab-cpn"><a href="#cert1" aria-controls="cert1" role="tab" data-toggle="tab"><span>&#10102;</span></a></li>
+					    <li role="presentation" class="tab-cpn"><a href="#cert2" aria-controls="cert2" role="tab" data-toggle="tab"><span>&#10103;</span></a></li>
+					    <li role="presentation" class="tab-cpn"><a href="#cert3" aria-controls="cert3" role="tab" data-toggle="tab"><span>&#10104;</span></a></li>
+					    <li role="presentation" class="tab-cpn"><a href="#cert4" aria-controls="cert4" role="tab" data-toggle="tab"><span>&#10105;</span></a></li>
+					    <li role="presentation" class="tab-cpn"><a href="#cert5" aria-controls="cert5" role="tab" data-toggle="tab"><span>&#10106;</span></a></li>
+					    <li role="presentation" class="tab-cpn"><a href="#cert6" aria-controls="cert6" role="tab" data-toggle="tab"><span>&#10107;</span></a></li>
+					    <li role="presentation" class="tab-cpn"><a href="#cert7" aria-controls="cert7" role="tab" data-toggle="tab"><span>&#10108;</span></a></li>
+					    <li role="presentation" class="tab-cpn"><a href="#cert8" aria-controls="cert8" role="tab" data-toggle="tab"><span>&#10109;</span></a></li>
+					</ul>
+				</div>			
+				<!-- End Nav tabs -->
+
+				<!-- Tab panes -->
+				<div class="tab-content content clearfix">
+					<!-- Cert 1-->
+				    <div role="tabpanel" class="tab-pane active row no-margin" id="cert1">
+				    	<div class="col-md-12">
+				    		<h2>
+				    			<i class="fa fa-paper-plane" aria-hidden="true"></i>&nbsp;Giới thiệu khóa học
+				    		</h2>
+				    		<hr>				    		
+				    	</div>
+					    <div class="col-md-3">
+					    	<div class="hidden">Hiếu đẹp trai</div>						    						    	
+					    	<p class="text-justify"><span class="fa fa-graduation-cap fa-2x">&nbsp;&nbsp;&nbsp;</span>Tự tạo cho mình website, lập trình đơn giản và có thể tham gia những dự án xây dựng Front-End cho website. Biết cách sống trên mạng một cách an toàn và sử dụng các công cụ online như liên lạc và tìm kiếm trong công việc, có thể làm nghề Hỗ trợ tin học hoặc kinh doanh trên mạng.</p>
+					    	<hr>
+					    	<h4 class="text-center">Cơ hội nghề nghiệp</h4>			    	
+					    	<p class="text-center big-text"><i class="fa fa-cloud-download fa-5x"></i></p>              	
+			              	<p><i class="fa fa-pencil-square-o">&nbsp;</i>Thiết kế website (Web Developer/Web Designer)</p>
+			              	<p><i class="fa fa-pencil-square-o">&nbsp;</i>Hỗ trợ CNTT (IT Helpdesk Support)</p>
+			              	<p><i class="fa fa-pencil-square-o">&nbsp;</i>Quản lý hệ thống (Network/Systems Administrator)</p>
+			              	<p><i class="fa fa-pencil-square-o">&nbsp;</i>Nhân viên văn phòng/hành chính/thư ký</p>   			
+						</div>
+						<div class="col-md-9">
+							<div class="col-md-12">
+								<h3>Digital Passport&nbsp;&nbsp; <i class="fa fa-leanpub fa-lg" aria-hidden="true"></i></h3>
+								<hr>
+							</div>
+							<div class="row no-margin">							
+								<ul class="courses-list">
+									<li class="col-md-4 col-sm-6 courses-list-item">
+										<div class="view view-style">
+						                    <img src="assets/img/cert1-1.jpg" />
+						                    <div class="mask">
+						                        <h2>FUN131x</h2>
+						                        <p>Becoming an Digital Citizen</p>
+						                        <a href="#stay_here" class="info">Learn More</a>
+						                    </div>
+						                </div>
+										
+									</li>
+
+									<li class="col-md-4 col-sm-6 courses-list-item">
+										<div class="view view-style">
+						                    <img src="assets/img/cert1-2.jpg" />
+						                    <div class="mask">
+						                        <h2>PRM192x</h2>
+						                        <p>Creating your first program</p>
+						                        <a href="#stay_here" class="info">Learn More</a>
+						                    </div>
+						                </div>
+										
+									</li>
+									<li class="col-md-4 col-sm-6 courses-list-item">									
+										<div class="view view-style">
+						                    <img src="assets/img/cert1-3.jpg" />
+						                    <div class="mask">
+						                        <h2>FUN121x</h2>
+						                        <p>Becoming an Digital Citizen</p>
+						                        <a href="#stay_here" class="info">Learn More</a>
+						                    </div>
+						                </div>																			
+									</li>
+									<li class="col-md-4 col-sm-6 courses-list-item">
+										<div class="view view-style">
+						                    <img src="assets/img/cert1-4.jpg" />
+						                    <div class="mask">
+						                        <h2>WEB101x</h2>
+						                        <p>Building your first website</p>
+						                        <a href="#stay_here" class="info">Learn More</a>
+						                    </div>
+						                </div>
+									</li>
+
+								</ul>	
+							</div>							
+						</div>
+						<div class="col-md-12">				    		
+				    		<hr>				    		
+				    	</div>
+				    </div>
+				    <!-- End Cert 1 -->
+
+				    <!-- Cert 2 -->
+				    <div role="tabpanel" class="tab-pane" id="cert2">
+				    	<div class="col-md-12">
+				    		<h2>
+				    			<i class="fa fa-paper-plane" aria-hidden="true"></i>&nbsp;&nbsp;Giới thiệu khóa học
+				    		</h2>
+				    		<hr>				    		
+				    	</div>
+					    <div class="col-md-3">
+					    	<div class="hidden">Hiếu đẹp trai</div>						    	
+					    	<p class="text-justify"><span class="fa fa-graduation-cap fa-2x">&nbsp;&nbsp;&nbsp;</span>Từ kiến thức nền tảng vững chắc trong khoa học máy tính, sinh viên được tiếp cận đến những xu hướng lập trình hiện đại như lập trình di động và lập trình game. Sinh viên cũng có thể tạo nên được những ứng dụng game trên mobile và tham gia những dự án này ở một số công ty.</p>
+					    	<hr>
+					    	<h4 class="text-center">Cơ hội nghề nghiệp</h4>			    	
+					    	<p class="text-center big-text"><i class="fa fa-cloud-download fa-5x"></i></p>              	
+			              	<p><i class="fa fa-pencil-square-o">&nbsp;</i>Lập trình game/app di động mobile</p>
+			              	<p><i class="fa fa-pencil-square-o">&nbsp;</i>Hỗ trợ CNTT (IT Helpdesk Support)</p>
+			              	
+			            </div>
+						<div class="col-md-9">
+							<div class="col-md-12">
+								<h3>Mobile Application Developer&nbsp;&nbsp; <i class="fa fa-leanpub fa-lg" aria-hidden="true"></i></h3>
+								<hr>
+							</div>
+							<div class="row no-margin">							
+								<ul class="courses-list">
+									<li class="col-md-4 col-sm-6 courses-list-item">
+										<div class="view view-style">
+						                    <img src="assets/img/cert2-1.jpg" />
+						                    <div class="mask">
+						                        <h2>CSI101x</h2>
+						                        <p>Giới thiệu về khoa học máy tính</p>
+						                        <a href="#stay_here" class="info">Learn More</a>
+						                    </div>
+						                </div>
+										
+									</li>
+
+									<li class="col-md-4 col-sm-6 courses-list-item">
+										<div class="view view-style">
+						                    <img src="assets/img/cert2-2.jpg" />
+						                    <div class="mask">
+						                        <h2>PRO192x</h2>
+						                        <p>Lập trình hướng đối tượng</p>
+						                        <a href="#stay_here" class="info">Learn More</a>
+						                    </div>
+						                </div>
+										
+									</li>
+
+									<li class="col-md-4 col-sm-6 courses-list-item">
+										<div class="view view-style ">
+						                    <img class="hidden" src="assets/img/cert1-2.jpg" />
+						                    <div class="mask">
+						                        <h2>PRM391x</h2>
+						                        <p>Lập trình di động</p>
+						                        <a href="#stay_here" class="info hidden">Learn More</a>
+						                    </div>
+						                </div>
+										
+									</li>
+									<li class="col-md-4 col-sm-6 courses-list-item">									
+										<div class="view view-style ">
+						                    <img class="hidden" src="assets/img/cert1-3.jpg" />
+						                    <div class="mask">
+						                        <h2>GAD101x</h2>
+						                        <p>Phát triển game</p>
+						                        <a href="#stay_here" class="info hidden">Learn More</a>
+						                    </div>
+						                </div>																			
+									</li>
+									<li class="col-md-4 col-sm-6 courses-list-item">
+										<div class="view view-style">
+						                    <img class="hidden" src="assets/img/cert1-4.jpg" />
+						                    <div class="mask">
+						                        <h2>LAB101x</h2>
+						                        <p>Lab 1</p>
+						                        <a href="#stay_here" class="info hidden">Learn More</a>
+						                    </div>
+						                </div>
+									</li>
+
+								</ul>	
+							</div>							
+						</div>
+						<div class="col-md-12">				    		
+				    		<hr>				    		
+				    	</div>
+				    </div>
+				    <!-- End Cert 2 -->
+
+				    <!-- Cert 3 -->
+				    <div role="tabpanel" class="tab-pane" id="cert3">
+				    	<div class="col-md-12">
+				    		<h2>
+				    			<i class="fa fa-paper-plane" aria-hidden="true"></i>&nbsp;&nbsp;Giới thiệu khóa học
+				    		</h2>
+				    		<hr>				    		
+				    	</div>
+					    <div class="col-md-3">
+					    	<div class="hidden">Hiếu đẹp trai</div>					    	
+					    	<p class="text-justify"><span class="fa fa-graduation-cap fa-2x">&nbsp;&nbsp;&nbsp;</span>Sau chứng chỉ sinh viên cũng nắm được kiến thức căn bản về cơ sở dữ liệu, cách thiết lập và thao tác với một số hệ quản trị dữ liệu. Sinh viên cũng có thể xây dựng và phát triển các ứng dụng thực tế trên Desktop, trên website với dữ liệu linh hoạt được lưu tại các hệ quản trị cơ sở dữ liệu. Có thể tham gia vào một số công ty phát triển ứng dụng, gia công phần mềm.</p>
+					    	<hr>
+					    	<h4 class="text-center">Cơ hội nghề nghiệp</h4>			    	
+					    	<p class="text-center big-text"><i class="fa fa-cloud-download fa-5x"></i></p>              	
+			              	<p><i class="fa fa-pencil-square-o">&nbsp;</i>Lập trình viên (Software Developer/Programmer)</p>
+			              	<p><i class="fa fa-pencil-square-o">&nbsp;</i>Lập trình game/app di động mobile</p>
+			              	<p><i class="fa fa-pencil-square-o">&nbsp;</i>Lập trình website</p>
+			              	<p><i class="fa fa-pencil-square-o">&nbsp;</i>Lập trình Java</p>		              
+			              		    			
+						</div>
+						<div class="col-md-9">
+							<div class="col-md-12">
+								<h3>Enterprise Application Developer&nbsp;&nbsp; <i class="fa fa-leanpub fa-lg" aria-hidden="true"></i></h3>
+								<hr>
+							</div>
+							<div class="row no-margin">							
+								<ul class="courses-list">
+									<li class="col-md-4 col-sm-6 courses-list-item">
+										<div class="view view-style">
+						                    <img src="assets/img/cert1-1.jpg" />
+						                    <div class="mask">
+						                        <h2>FUN131x</h2>
+						                        <p>Course Name</p>
+						                        <a href="#stay_here" class="info">Learn More</a>
+						                    </div>
+						                </div>
+										
+									</li>
+
+									<li class="col-md-4 col-sm-6 courses-list-item">
+										<div class="view view-style">
+						                    <img src="assets/img/cert1-2.jpg" />
+						                    <div class="mask">
+						                        <h2>PRM192x</h2>
+						                        <p>Course Name</p>
+						                        <a href="#stay_here" class="info">Learn More</a>
+						                    </div>
+						                </div>
+										
+									</li>
+									<li class="col-md-4 col-sm-6 courses-list-item">									
+										<div class="view view-style">
+						                    <img src="assets/img/cert1-3.jpg" />
+						                    <div class="mask">
+						                        <h2>FUN121x</h2>
+						                        <p>Course Name</p>
+						                        <a href="#stay_here" class="info">Learn More</a>
+						                    </div>
+						                </div>																			
+									</li>
+									<li class="col-md-4 col-sm-6 courses-list-item">
+										<div class="view view-style">
+						                    <img src="assets/img/cert1-4.jpg" />
+						                    <div class="mask">
+						                        <h2>WEB101x</h2>
+						                        <p>Course Name</p>
+						                        <a href="#stay_here" class="info">Learn More</a>
+						                    </div>
+						                </div>
+									</li>
+
+									<li class="col-md-4 col-sm-6 courses-list-item">
+										<div class="view view-style">
+						                    <img class="hidden" src="assets/img/cert1-4.jpg" />
+						                    <div class="mask">
+						                        <h2>LAB101x</h2>
+						                        <p>Lab 1</p>
+						                        <a href="#stay_here" class="info hidden">Learn More</a>
+						                    </div>
+						                </div>
+									</li>
+								</ul>	
+							</div>							
+						</div>
+						<div class="col-md-12">				    		
+				    		<hr>				    		
+				    	</div>
+				    </div>
+				    <!-- End Cert 3 -->
+
+				    <!-- Cert 4 -->
+				    <div role="tabpanel" class="tab-pane" id="cert4">
+				    	<div class="col-md-12">
+				    		<h2>
+				    			<i class="fa fa-paper-plane" aria-hidden="true"></i>&nbsp;&nbsp;Giới thiệu khóa học
+				    		</h2>
+				    		<hr>				    		
+				    	</div>
+					    <div class="col-md-3">					    	
+					    	<p class="text-justify"><span class="fa fa-graduation-cap fa-2x">&nbsp;&nbsp;&nbsp;</span>Sinh viên nắm được kiến thức về an toàn thông tin, đạo đức trong nghề IT, kỹ năng giao tiếp trong công việc và kinh doanh. Đây là những kỹ năng sinh viên cần phải có để phát triển trong môi trường chuyên nghiệp. Sinh viên cũng được cung cấp kiến thức về nền tảng để có thể quản trị tốt một dự án công nghệ thông tin trong doanh nghiệp.</p>
+					    	<hr>
+					    	<h4 class="text-center">Cơ hội nghề nghiệp</h4>			    	
+					    	<p class="text-center big-text"><i class="fa fa-cloud-download fa-5x"></i></p>              	
+			              	<p><i class="fa fa-pencil-square-o">&nbsp;</i>Sysadmin, quản trị/vận hành hệ thống (IT)</p>
+			              	<p><i class="fa fa-pencil-square-o">&nbsp;</i>Quản trị dự án CNTT</p>			              	
+			              	<p><i class="fa fa-pencil-square-o">&nbsp;</i>Pre-Sales cho IT</p>
+						</div>
+						<div class="col-md-9">
+							<div class="col-md-12">
+								<h3>Industry Attachment&nbsp;&nbsp; <i class="fa fa-leanpub fa-lg" aria-hidden="true"></i></h3>
+								<hr>
+							</div>
+							<div class="row no-margin">							
+								<ul class="courses-list">
+									<li class="col-md-4 col-sm-6 courses-list-item">
+										<div class="view view-style">
+						                    <img src="assets/img/cert1-1.jpg" />
+						                    <div class="mask">
+						                        <h2>FUN131x</h2>
+						                        <p>Course Name</p>
+						                        <a href="#stay_here" class="info">Learn More</a>
+						                    </div>
+						                </div>
+										
+									</li>
+
+									<li class="col-md-4 col-sm-6 courses-list-item">
+										<div class="view view-style">
+						                    <img src="assets/img/cert1-2.jpg" />
+						                    <div class="mask">
+						                        <h2>PRM192x</h2>
+						                        <p>Course Name</p>
+						                        <a href="#stay_here" class="info">Learn More</a>
+						                    </div>
+						                </div>
+										
+									</li>
+									<li class="col-md-4 col-sm-6 courses-list-item">									
+										<div class="view view-style">
+						                    <img src="assets/img/cert1-3.jpg" />
+						                    <div class="mask">
+						                        <h2>FUN121x</h2>
+						                        <p>Course Name</p>
+						                        <a href="#stay_here" class="info">Learn More</a>
+						                    </div>
+						                </div>																			
+									</li>
+									<li class="col-md-4 col-sm-6 courses-list-item">
+										<div class="view view-style">
+						                    <img src="assets/img/cert1-4.jpg" />
+						                    <div class="mask">
+						                        <h2>WEB101x</h2>
+						                        <p>Course Name</p>
+						                        <a href="#stay_here" class="info">Learn More</a>
+						                    </div>
+						                </div>
+									</li>
+
+								</ul>	
+							</div>							
+						</div>
+						<div class="col-md-12">				    		
+				    		<hr>				    		
+				    	</div>
+				    </div>
+				    <!-- End Cert 4 -->
+
+				    <!-- Cert 5 -->
+				    <div role="tabpanel" class="tab-pane" id="cert5">
+					    <div class="col-md-12">
+				    		<h2>
+				    			<i class="fa fa-paper-plane" aria-hidden="true"></i>&nbsp;&nbsp;Giới thiệu khóa học
+				    		</h2>
+				    		<hr>				    		
+				    	</div>
+					    <div class="col-md-3">					    	
+					    	<p class="text-justify"><span class="fa fa-graduation-cap fa-2x">&nbsp;&nbsp;&nbsp;</span>Đạt được chứng chỉ này, sinh viên sẽ nắm được toàn bộ quy trình phát triển phẩn mềm. Từ lấy yêu cầu khách hàng, xây dựng kiến trúc và đảm bảo chất lượng sản phẩm. Nắm được quy trình nghiêm ngặt đó các bạn có thể tự tin ứng tuyển vào các công ty phần mềm hàng đầu Việt Nam.</p>
+					    	<hr>
+					    	<h4 class="text-center">Cơ hội nghề nghiệp</h4>			    	
+					    	<p class="text-center big-text"><i class="fa fa-cloud-download fa-5x"></i></p>              	
+			              	<p><i class="fa fa-pencil-square-o">&nbsp;</i>Lập trình viên (full stack), kỹ sư CNTT</p>
+			              	<p><i class="fa fa-pencil-square-o">&nbsp;</i>Technical leader</p>
+			              	<p><i class="fa fa-pencil-square-o">&nbsp;</i>Tester</p>
+			              	<p><i class="fa fa-pencil-square-o">&nbsp;</i>QA/QC phần mềm</p>
+						</div>
+						<div class="col-md-9">
+							<div class="col-md-12">
+								<h3>Basic Software Engineer&nbsp;&nbsp; <i class="fa fa-leanpub fa-lg" aria-hidden="true"></i></h3>
+								<hr>
+							</div>
+							<div class="row no-margin">							
+								<ul class="courses-list">
+									<li class="col-md-4 col-sm-6 courses-list-item">
+										<div class="view view-style">
+						                    <img src="assets/img/cert1-1.jpg" />
+						                    <div class="mask">
+						                        <h2>FUN131x</h2>
+						                        <p>Course Name</p>
+						                        <a href="#stay_here" class="info">Learn More</a>
+						                    </div>
+						                </div>
+										
+									</li>
+
+									<li class="col-md-4 col-sm-6 courses-list-item">
+										<div class="view view-style">
+						                    <img src="assets/img/cert1-2.jpg" />
+						                    <div class="mask">
+						                        <h2>PRM192x</h2>
+						                        <p>Course Name</p>
+						                        <a href="#stay_here" class="info">Learn More</a>
+						                    </div>
+						                </div>
+										
+									</li>
+									<li class="col-md-4 col-sm-6 courses-list-item">									
+										<div class="view view-style">
+						                    <img src="assets/img/cert1-3.jpg" />
+						                    <div class="mask">
+						                        <h2>FUN121x</h2>
+						                        <p>Course Name</p>
+						                        <a href="#stay_here" class="info">Learn More</a>
+						                    </div>
+						                </div>																			
+									</li>
+									<li class="col-md-4 col-sm-6 courses-list-item">
+										<div class="view view-style">
+						                    <img src="assets/img/cert1-4.jpg" />
+						                    <div class="mask">
+						                        <h2>WEB101x</h2>
+						                        <p>Course Name</p>
+						                        <a href="#stay_here" class="info">Learn More</a>
+						                    </div>
+						                </div>
+									</li>
+
+									<li class="col-md-4 col-sm-6 courses-list-item">
+										<div class="view view-style">
+						                    <img class="hidden" src="assets/img/cert1-4.jpg" />
+						                    <div class="mask">
+						                        <h2>LAB101x</h2>
+						                        <p>Lab 1</p>
+						                        <a href="#stay_here" class="info hidden">Learn More</a>
+						                    </div>
+						                </div>
+									</li>
+								</ul>	
+							</div>							
+						</div>
+						<div class="col-md-12">				    		
+				    		<hr>				    		
+				    	</div>
+					</div>
+					<!-- End Cert 5 -->
+
+					<!-- Cert 6 -->
+				    <div role="tabpanel" class="tab-pane" id="cert6">
+				    	<div class="col-md-12">
+				    		<h2>
+				    			<i class="fa fa-paper-plane" aria-hidden="true"></i>&nbsp;&nbsp;Giới thiệu khóa học
+				    		</h2>
+				    		<hr>				    		
+				    	</div>
+					    <div class="col-md-3">					    	
+					    	<p class="text-justify"><span class="fa fa-graduation-cap fa-2x">&nbsp;&nbsp;&nbsp;</span>Đạt được chứng chỉ này, sinh viên có thể phát triển kỹ năng để có thể trở thành một người hiểu biết về các nghiệp vụ kinh tế tốt hơn phục vụ cho việc phát triển phần mềm cũng như quản lý sau này.</p>
+					    	<hr>
+					    	<h4 class="text-center">Cơ hội nghề nghiệp</h4>			    	
+					    	<p class="text-center big-text"><i class="fa fa-cloud-download fa-5x"></i></p>              	
+			              	<p><i class="fa fa-pencil-square-o">&nbsp;</i>Pre-Sales cho IT</p>
+			              	<p><i class="fa fa-pencil-square-o">&nbsp;</i>Sales (cho IT)</p>
+			              	<p><i class="fa fa-pencil-square-o">&nbsp;</i>Kế toán</p>
+			              	<p><i class="fa fa-pencil-square-o">&nbsp;</i>Tư vấn viên (về IT)</p>			
+						</div>
+						<div class="col-md-9">
+							<div class="col-md-12">
+								<h3>Bussiness Alignment&nbsp;&nbsp; <i class="fa fa-leanpub fa-lg" aria-hidden="true"></i></h3>
+								<hr>
+							</div>
+							<div class="row no-margin">							
+								<ul class="courses-list">
+									<li class="col-md-4 col-sm-6 courses-list-item">
+										<div class="view view-style">
+						                    <img src="assets/img/cert1-1.jpg" />
+						                    <div class="mask">
+						                        <h2>FUN131x</h2>
+						                        <p>Course Name</p>
+						                        <a href="#stay_here" class="info">Learn More</a>
+						                    </div>
+						                </div>
+										
+									</li>
+
+									<li class="col-md-4 col-sm-6 courses-list-item">
+										<div class="view view-style">
+						                    <img src="assets/img/cert1-2.jpg" />
+						                    <div class="mask">
+						                        <h2>PRM192x</h2>
+						                        <p>Course Name</p>
+						                        <a href="#stay_here" class="info">Learn More</a>
+						                    </div>
+						                </div>
+										
+									</li>
+									<li class="col-md-4 col-sm-6 courses-list-item">									
+										<div class="view view-style">
+						                    <img src="assets/img/cert1-3.jpg" />
+						                    <div class="mask">
+						                        <h2>FUN121x</h2>
+						                        <p>Course Name</p>
+						                        <a href="#stay_here" class="info">Learn More</a>
+						                    </div>
+						                </div>																			
+									</li>
+									<li class="col-md-4 col-sm-6 courses-list-item">
+										<div class="view view-style">
+						                    <img src="assets/img/cert1-4.jpg" />
+						                    <div class="mask">
+						                        <h2>WEB101x</h2>
+						                        <p>Course Name</p>
+						                        <a href="#stay_here" class="info">Learn More</a>
+						                    </div>
+						                </div>
+									</li>
+
+								</ul>	
+							</div>							
+						</div>
+						<div class="col-md-12">				    		
+				    		<hr>				    		
+				    	</div>
+				    </div>
+				    <!-- End Cert 6 -->
+
+				    <!-- Cert 7 --> 
+				    <div role="tabpanel" class="tab-pane" id="cert7">
+				    	<div class="col-md-12">
+				    		<h2>
+				    			<i class="fa fa-paper-plane" aria-hidden="true"></i>&nbsp;&nbsp;Giới thiệu khóa học
+				    		</h2>
+				    		<hr>				    		
+				    	</div>
+					    <div class="col-md-3">					    	
+					    	<p class="text-justify"><span class="fa fa-graduation-cap fa-2x">&nbsp;&nbsp;&nbsp;</span>Sinh viên được tiếp cận đến xu hướng công nghệ mới là Big data và Cloud computing. Đây là những xu hướng công nghệ đang được phát triển và ứng dụng rộng rãi trên thế giới.</p>
+					    	<hr>
+					    	<h4 class="text-center">Cơ hội nghề nghiệp</h4>			    	
+					    	<p class="text-center big-text"><i class="fa fa-cloud-download fa-5x"></i></p>              	
+			              	<p><i class="fa fa-pencil-square-o">&nbsp;</i>Kỹ sư CNTT</p>
+			              	<p><i class="fa fa-pencil-square-o">&nbsp;</i>Kỹ sư CNTT chuyên về cloud/big data</p>
+			              	<p><i class="fa fa-pencil-square-o">&nbsp;</i>Lập trình viên</p>
+			              	<p><i class="fa fa-pencil-square-o">&nbsp;</i>Technical leader</p>
+			              	<p><i class="fa fa-pencil-square-o">&nbsp;</i>Trưởng phòng công nghệ thông tin (IT Manager) - Với kinh nghiệm từ 5-7 năm trong nghề</p>			
+						</div>
+						<div class="col-md-9">
+							<div class="col-md-12">
+								<h3>IS Specialized&nbsp;&nbsp; <i class="fa fa-leanpub fa-lg" aria-hidden="true"></i></h3>
+								<hr>
+							</div>
+							<div class="row no-margin">							
+								<ul class="courses-list">
+									<li class="col-md-4 col-sm-6 courses-list-item">
+										<div class="view view-style">
+						                    <img src="assets/img/cert1-1.jpg" />
+						                    <div class="mask">
+						                        <h2>FUN131x</h2>
+						                        <p>Course Name</p>
+						                        <a href="#stay_here" class="info">Learn More</a>
+						                    </div>
+						                </div>
+										
+									</li>
+
+									<li class="col-md-4 col-sm-6 courses-list-item">
+										<div class="view view-style">
+						                    <img src="assets/img/cert1-2.jpg" />
+						                    <div class="mask">
+						                        <h2>PRM192x</h2>
+						                        <p>Course Name</p>
+						                        <a href="#stay_here" class="info">Learn More</a>
+						                    </div>
+						                </div>
+										
+									</li>
+									<li class="col-md-4 col-sm-6 courses-list-item">									
+										<div class="view view-style">
+						                    <img src="assets/img/cert1-3.jpg" />
+						                    <div class="mask">
+						                        <h2>FUN121x</h2>
+						                        <p>Course Name</p>
+						                        <a href="#stay_here" class="info">Learn More</a>
+						                    </div>
+						                </div>																			
+									</li>
+									<li class="col-md-4 col-sm-6 courses-list-item">
+										<div class="view view-style">
+						                    <img src="assets/img/cert1-4.jpg" />
+						                    <div class="mask">
+						                        <h2>WEB101x</h2>
+						                        <p>Course Name</p>
+						                        <a href="#stay_here" class="info">Learn More</a>
+						                    </div>
+						                </div>
+									</li>
+
+									<li class="col-md-4 col-sm-6 courses-list-item">
+										<div class="view view-style">
+						                    <img class="hidden" src="assets/img/cert1-4.jpg" />
+						                    <div class="mask">
+						                        <h2>LAB101x</h2>
+						                        <p>Lab 1</p>
+						                        <a href="#stay_here" class="info hidden">Learn More</a>
+						                    </div>
+						                </div>
+									</li>
+								</ul>	
+							</div>							
+						</div>
+						<div class="col-md-12">				    		
+				    		<hr>				    		
+				    	</div>
+				    </div>
+				    <!-- End Cert 7 -->
+
+				    <!-- Cert 8 -->
+				    <div role="tabpanel" class="tab-pane" id="cert8">
+				    	<div class="col-md-12">
+				    		<h2>
+				    			<i class="fa fa-paper-plane" aria-hidden="true"></i>&nbsp;&nbsp;Giới thiệu khóa học
+				    		</h2>
+				    		<hr>				    		
+				    	</div>
+					    <div class="col-md-3">					    	
+					    	<p class="text-justify"><span class="fa fa-graduation-cap fa-2x">&nbsp;&nbsp;&nbsp;</span>Đồ án tốt nghiệp sẽ giúp sinh viên tổng hợp toàn bộ kiến thức đã được học trong các chứng chỉ trước. Và kết thúc chứng chỉ cuối cùng này. Sinh viên sẽ nhận được tấm bằng Kỹ sư Công nghệ Phần mềm của Đại học FUNiX.</p>
+					    	<hr>
+					    	<h4 class="text-center">Cơ hội nghề nghiệp</h4>			    	
+					    	<p class="text-center big-text"><i class="fa fa-cloud-download fa-5x"></i></p>              	
+			              	<p><i class="fa fa-pencil-square-o">&nbsp;</i>Lập trình viên</p>
+			              	<p><i class="fa fa-pencil-square-o">&nbsp;</i>Technical leader</p>
+			              	<p><i class="fa fa-pencil-square-o">&nbsp;</i>Trưởng phòng công nghệ thông tin (IT Manager) - với kinh nghiệm 5-7 năm trong nghề</p>
+			              	<p><i class="fa fa-pencil-square-o">&nbsp;</i>Giám đốc công nghệ thông tin (Chief Information Officer – CIO) - với kinh ngiệm 7-10 năm trong nghề CNTT</p>			
+						</div>
+						<div class="col-md-9">
+							<div class="col-md-12">
+								<h3>Software Engineer Graduation&nbsp;&nbsp; <i class="fa fa-leanpub fa-lg" aria-hidden="true"></i></h3>
+								<hr>
+							</div>
+							<div class="row no-margin">							
+								<ul class="courses-list">
+									<li class="col-md-4 col-sm-6 courses-list-item">
+										<div class="view view-style">
+						                    <img src="assets/img/cert1-1.jpg" />
+						                    <div class="mask">
+						                        <h2>FUN131x</h2>
+						                        <p>Course Name</p>
+						                        <a href="#stay_here" class="info">Learn More</a>
+						                    </div>
+						                </div>
+										
+									</li>
+
+									<li class="col-md-4 col-sm-6 courses-list-item">
+										<div class="view view-style">
+						                    <img src="assets/img/cert1-2.jpg" />
+						                    <div class="mask">
+						                        <h2>PRM192x</h2>
+						                        <p>Course Name</p>
+						                        <a href="#stay_here" class="info">Learn More</a>
+						                    </div>
+						                </div>
+										
+									</li>
+									<li class="col-md-4 col-sm-6 courses-list-item">									
+										<div class="view view-style">
+						                    <img src="assets/img/cert1-3.jpg" />
+						                    <div class="mask">
+						                        <h2>FUN121x</h2>
+						                        <p>Course Name</p>
+						                        <a href="#stay_here" class="info">Learn More</a>
+						                    </div>
+						                </div>																			
+									</li>
+									<li class="col-md-4 col-sm-6 courses-list-item">
+										<div class="view view-style">
+						                    <img src="assets/img/cert1-4.jpg" />
+						                    <div class="mask">
+						                        <h2>WEB101x</h2>
+						                        <p>Course Name</p>
+						                        <a href="#stay_here" class="info">Learn More</a>
+						                    </div>
+						                </div>
+									</li>
+								</ul>	
+							</div>							
+						</div>
+						<div class="col-md-12">				    		
+				    		<hr>				    		
+				    	</div>
+				    </div>
+				    <!-- End Cert 8 -->
+				</div>
+				<!-- End Tab panes -->						
+			</section>		
+			<!-- End section-->
+
+			<!-- Footer -->
+			<footer>
+				<div class="funix-footer row no-margin" role="navigation">		                
+	                <div class="col-md-3 col-sm-4 funix-footer-link">	                                    
+	                    <h2>CONTACT</h2>                    	                    
+						<p>
+	                        <span class="fa fa-phone fa-2x">&nbsp;</span> Hotline:
+	                    </p>
+	                    <p>
+	                    	04.7300.5656 
+	                    </p>							
+						<p>
+	                        <span class="fa fa-envelope fa-2x">&nbsp;</span> Email:
+	                    </p>
+						<p>
+							<a href="#stay_here">funix-support@fpt.edu.vn</a>  
+						</p>
+	                </div>
+	               	<div class="col-md-3 col-sm-4 funix-footer-link">
+	                    <h2 class="">COMPANY</h2>
+	                    
+	                    <a href="#stay_here"><p><span class="fa fa-graduation-cap fa-2x">&nbsp;&nbsp;&nbsp;</span> X-TER</p></a>
+	                    <a href="#stay_here"><p><span class="fa fa-users fa-2x">&nbsp;&nbsp;&nbsp;</span> MENTOR</p></a>
+	                    <a href="#stay_here"><p><span class="fa fa-soundcloud fa-2x">&nbsp;&nbsp;&nbsp;</span> EXPERT</p></a>
+	                    
+	                </div>
+	                <div class="col-md-3 col-sm-4 funix-footer-link">
+	                    <h2 class="">SUPPORT</h2>
+	                    
+	                    <a href="#stay_here"><p><span class="fa fa-question fa-2x">&nbsp;&nbsp;&nbsp;</span> HANAH</p></a>
+	                    <a href="#stay_here"><p><span class="fa fa-user fa-2x">&nbsp;&nbsp;&nbsp;</span> LAURA</p></a>
+	                    <a href="#stay_here"><p><span class="fa fa-coffee fa-2x">&nbsp;&nbsp;&nbsp;</span> FUNiX</p></a>
+	                    
+	                </div> 
+	                <div class="col-md-3 col-sm-12">
+	                	<div class="col-md-12">
+	                		<a href="https://www.funix.edu.vn/" target="_blank">
+	                			<img src="assets/img/logo3.png">
+	                		</a>
+	                	</div>					                		                	
+	                	<hr>
+	                    <ul class="social-network social-circle">
+	                        <li><a href="#stay_here" target="_blank" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
+	                        <li><a href="https://www.facebook.com/daihocfunix/?fref=ts" target="_blank" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>                        
+	                        <li><a href="#stay_here" target="_blank" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+	                        <li><a href="#stay_here" target="_blank" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                    	</ul>
+	                </div>
+			</footer>
+			<!-- End Footer -->			
+		</div>
+		<!-- End Container -->
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->		
+	    <!-- Include all compiled plugins (below), or include individual files as needed -->	   
+        
+	</body>
+</html>

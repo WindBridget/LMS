@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Courses | Đại học trực tuyến FUNiX</title>
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="assets/css/bootstrap.css" />
+    	<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    	<!-- Style -->
+    	<link rel="stylesheet" href="assets/css/style.css"/>
+    	<!-- <link href="assets/css/reset.css" rel="stylesheet"/> -->
+    	<link rel="stylesheet" href="assets/css/font-awesome.min.css"/>
+    	<link rel="stylesheet" href="assets/css/font-awesome.css"/>   	
+	    <link rel="stylesheet" href="assets/css/bootstrap-social.css"/>
+
+	    
+	</head>
+	<body>
+
+		<!-- Container-->
+		<div class="container-fluid ">
+			<!-- nav-->
+			<nav class="navbar navbar-default funix-nax" role="navigation">
+
+				<div class="navbar-header">															 
+					<button type="button" class="navbar-toggle tabs-toggle " data-toggle="collapse" data-target="#navbar-collapse">
+						<span class="tabs-btn fa fa-arrow-down fa-2x" aria-hidden="true"></span>
+					</button> 					
+				</div>
+				
+				<div class="collapse navbar-collapse" id="">
+				
+					<ul class="nav navbar-nav">
+						<li class="logo">
+							<a href="index.html">
+								<img src="assets/img/logo.png" alt="logo"/>
+							</a>
+						</li>
+						<li>
+							<a href="course.html">My Course</a>
+						</li>
+						<li>
+							<a href="leaderboard.html">Leader Board</a>
+						</li>
+						<li class="dropdown">
+							 <a href="#stay_here" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Event<strong class="caret"></strong></a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#stay_here">Action</a>
+								</li>
+								<li>
+									<a href="#stay_here">Another action</a>
+								</li>
+								<li>
+									<a href="#stay_here">Something else here</a>
+								</li>
+								<li class="divider">
+								</li>
+								<li>
+									<a href="#stay_here">Separated link</a>
+								</li>
+								<li class="divider">
+								</li>
+								<li>
+									<a href="#stay_here">One more separated link</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+
+					<ul class="nav navbar-nav navbar-right">
+					
+						<li class="dropdown">
+							 <a href="#stay_here" class="dropdown-toggle" data-toggle="dropdown">Student ID<strong class="caret"></strong></a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#stay_here">Profile</a>
+								</li>
+								<li>
+									<a href="#stay_here">Account</a>
+								</li>
+								<li class="divider">
+								<li>
+									<a href="#stay_here">Sign Out</a>
+								</li>
+							</ul>
+						</li>
+					</ul>										
+				</div>				
+			</nav>
+			<!-- End Nav-->
+			
+			<!-- Mobile	Nav-->
+			<nav class=" navbar-default funix-nax hidden-md hidden-sm hidden-lg" role="navigation">
+				<div class="collapse navbar-collapse " id="navbar-collapse">
+					
+					<ul class="nav navbar-nav">
+						<li>
+							<a href="#stay_here">Home</a>
+						</li>
+						<li>
+							<a href="#stay_here">My Course</a>
+						</li>
+						<li>
+							<a href="#stay_here">Leader Broad</a>
+						</li>
+						<li class="dropdown">
+							 <a href="#stay_here" class="dropdown-toggle" data-toggle="dropdown">Event<strong class="caret"></strong></a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#stay_here">Action</a>
+								</li>
+								<li>
+									<a href="#stay_here">Another action</a>
+								</li>
+								<li>
+									<a href="#stay_here">Something else here</a>
+								</li>
+								<li class="divider">
+								</li>
+								<li>
+									<a href="#stay_here">Separated link</a>
+								</li>
+								<li class="divider">
+								</li>
+								<li>
+									<a href="#stay_here">One more separated link</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+
+					<ul class="nav navbar-nav navbar-right">
+					
+						<li class="dropdown">
+							 <a href="#stay_here" class="dropdown-toggle" data-toggle="dropdown">Student ID<strong class="caret"></strong></a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#stay_here">Profile</a>
+								</li>
+								<li>
+									<a href="#stay_here">Account</a>
+								</li>
+								<li class="divider">
+								<li>
+									<a href="#stay_here">Sign Out</a>
+								</li>
+							</ul>
+						</li>
+					</ul>										
+				</div>
+			</nav>
+			<!-- End Mobile Nav -->
+
+			<!-- Section -->
+			<section>
+				<div class="index hanah">
+		    		<a href="https://www.facebook.com/bui.hai.ly.131092" target="_blank">		    			
+			    		<p class="text-center no-margin"><span class="fa fa-user-circle-o fa-3x"></span></p>
+			    	</a>	
+	    		</div>
+	    		<div class="index result">
+		    		<a href="http://kqht.funix.edu.vn" target="_blank">		    			
+			    		<p class="text-center no-margin"><span class="fa fa-eercast fa-3x"></span></p>
+			    	</a>	
+	    		</div>					
+				<!-- Nav tabs -->			
+				<div class="navbar navbar-default funix-tabs-control" role="navigation">						
+					 <ul class="nav nav-tabs funix-tabs"  role="tablist">
+					    <li role="presentation" class="active course-tab-cpn"><a href="#course" aria-controls="course" role="tab" data-toggle="tab"><span>Courseware</span></a></li>
+					    <li role="presentation" class="course-tab-cpn"><a href="#info" aria-controls="info" role="tab" data-toggle="tab"><span>Info</span></a></li>
+					    <li role="presentation" class="course-tab-cpn"><a href="#progression" aria-controls="progression" role="tab" data-toggle="tab"><span>Progression</span></a></li>
+					    
+					</ul>
+				</div>			
+				<!-- End Nav tabs -->
+
+				<!-- Tab panes -->
+				<div class="tab-content content clearfix">
+					<!-- Tab 1-->
+				    <div role="tabpanel" class="tab-pane active row no-margin" id="course">
+				    	<div class="col-md-12">
+				    		<h2>
+				    			<i class="fa fa-paper-plane" aria-hidden="true"></i>&nbsp;Mobile Application Developer
+				    		</h2>
+
+				    		<hr>				    		
+				    	</div>
+
+					    <div class="col-md-3">					    						    	
+					    	<div class="nav-side-menu">
+							    <div class="brand hidden-xs">
+							    	<h3><i class="fa fa-ravelry" aria-hidden="true"></i> MENU</h3>
+							    	<hr>
+							    </div>
+							    <div class="navbar-header">															 
+									<button type="button" class="navbar-toggle side-nav-toggle" data-toggle="collapse" data-target="#menu-content">
+										<i class="side-nav-btn fa fa-arrow-down fa-2x" aria-hidden="true"></i>
+									</button> 					
+								</div>						   	  	
+						        <div class="menu-list">						 
+						            <ul id="menu-content" class="menu-content collapse out">						               
+						                <li  data-toggle="collapse" data-target="#intro" class="collapsed">
+						                	<i class="fa fa-map-o fa-lg"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Introduction<span class="arrow"></span>
+						                </li>
+						                <ul class="sub-menu collapse" id="intro">
+						                    <li><i class="fa fa-leanpub fa-lg"></i><a href="#stay_here">&nbsp;&nbsp;&nbsp;Get Started</a></li>
+						                    <li><i class="fa fa-leanpub fa-lg"></i><a href="#stay_here">&nbsp;&nbsp;&nbsp;Output</a></li>
+						                    <li><i class="fa fa-leanpub fa-lg"></i><a href="#stay_here">&nbsp;&nbsp;&nbsp;Syllabus</a></li>
+						                    <li><i class="fa fa-leanpub fa-lg"></i><a href="#stay_here">&nbsp;&nbsp;&nbsp;Mentors List</a></li>
+						                    <li><i class="fa fa-leanpub fa-lg"></i><a href="#stay_here">&nbsp;&nbsp;&nbsp;Sources</a></li>
+						                    <li><i class="fa fa-leanpub fa-lg"></i><a href="#stay_here">&nbsp;&nbsp;&nbsp;FontAwesome</a></li>
+						                    <li><i class="fa fa-leanpub fa-lg"></i><a href="#stay_here">&nbsp;&nbsp;&nbsp;Discusstion & Report</a></li>
+						                    <li><i class="fa fa-leanpub fa-lg"></i><a href="#stay_here">&nbsp;&nbsp;&nbsp;Preparing</a></li>						                    
+						                </ul>
+
+						                <li data-toggle="collapse" data-target="#part1" class="collapsed">
+						                	<i class="fa fa-book fa-lg"></i>&nbsp;&nbsp;&nbsp;Part 1<span class="arrow"></span>
+						                </li>  
+						                <ul class="sub-menu collapse" id="part1">
+						                	<li><i class="fa fa-leanpub fa-lg"></i><a href="#stay_here">&nbsp;&nbsp;&nbsp;Lesson 1</a></li>
+						                    <li><i class="fa fa-leanpub fa-lg"></i><a href="#stay_here">&nbsp;&nbsp;&nbsp;Lesson 2</a></li>
+						                    <li><i class="fa fa-leanpub fa-lg"></i><a href="#stay_here">&nbsp;&nbsp;&nbsp;Lesson 3</a></li>
+						                    <li><i class="fa fa-leanpub fa-lg"></i><a href="#stay_here">&nbsp;&nbsp;&nbsp;Lesson 4</a></li>
+						                    <li><i class="fa fa-map fa-lg"></i><a href="#stay_here">&nbsp;&nbsp;&nbsp;Assignment 1</a></li>
+						                </ul>
+
+
+						                <li data-toggle="collapse" data-target="#part2" class="collapsed">
+						                	<i class="fa fa-book fa-lg"></i>&nbsp;&nbsp;&nbsp;Part 2<span class="arrow"></span>
+						                </li>  
+						                <ul class="sub-menu collapse" id="part2">
+						                	<li><i class="fa fa-leanpub fa-lg"></i><a href="#stay_here">&nbsp;&nbsp;&nbsp;Lesson 5</a></li>
+						                    <li><i class="fa fa-leanpub fa-lg"></i><a href="#stay_here">&nbsp;&nbsp;&nbsp;Lesson 6</a></li>
+						                    <li><i class="fa fa-leanpub fa-lg"></i><a href="#stay_here">&nbsp;&nbsp;&nbsp;Lesson 7</a></li>
+						                    <li><i class="fa fa-leanpub fa-lg"></i><a href="#stay_here">&nbsp;&nbsp;&nbsp;Lesson 8</a></li>
+						                    <li><i class="fa fa-map fa-lg"></i><a href="#stay_here">&nbsp;&nbsp;&nbsp;Assignment 2</a></li>
+						                </ul>
+
+						                <li data-toggle="collapse" data-target="#part3" class="collapsed">
+						                	<i class="fa fa-book fa-lg"></i>&nbsp;&nbsp;&nbsp;Part 3<span class="arrow"></span>
+						                </li>  
+						                <ul class="sub-menu collapse" id="part3">
+						                	<li><i class="fa fa-leanpub fa-lg"></i><a href="#stay_here">&nbsp;&nbsp;&nbsp;Lesson 9</a></li>
+						                    <li><i class="fa fa-leanpub fa-lg"></i><a href="#stay_here">&nbsp;&nbsp;&nbsp;Lesson 10</a></li>
+						                    <li><i class="fa fa-leanpub fa-lg"></i><a href="#stay_here">&nbsp;&nbsp;&nbsp;Lesson 11</a></li>
+						                    <li><i class="fa fa-leanpub fa-lg"></i><a href="#stay_here">&nbsp;&nbsp;&nbsp;Lesson 12</a></li>
+						                    <li><i class="fa fa-map fa-lg"></i><a href="#stay_here">&nbsp;&nbsp;&nbsp;Assignment 3</a></li>
+						                </ul>
+
+						                <li data-toggle="collapse" data-target="#part4" class="collapsed">
+						                	<i class="fa fa-book fa-lg"></i>&nbsp;&nbsp;&nbsp;Part 4<span class="arrow"></span>
+						                </li>  
+						                <ul class="sub-menu collapse" id="part4">
+						                	<li><i class="fa fa-leanpub fa-lg"></i><a href="#stay_here">&nbsp;&nbsp;&nbsp;Lesson 13</a></li>
+						                    <li><i class="fa fa-leanpub fa-lg"></i><a href="#stay_here">&nbsp;&nbsp;&nbsp;Lesson 14</a></li>
+						                    <li><i class="fa fa-leanpub fa-lg"></i><a href="#stay_here">&nbsp;&nbsp;&nbsp;Lesson 15</a></li>
+						                    <li><i class="fa fa-leanpub fa-lg"></i><a href="#stay_here">&nbsp;&nbsp;&nbsp;Lesson 16</a></li>
+						                    <li><i class="fa fa-map fa-lg"></i><a href="#stay_here">&nbsp;&nbsp;&nbsp;Assignment 4</a></li>
+						                </ul>
+
+					                	<li>
+					                  		<a href="#stay_here">
+					                  			<i class="fa fa-graduation-cap fa-lg"></i>&nbsp;&nbsp;&nbsp;Finish Up
+					                  		</a>
+					                  	</li>
+
+						                <li>
+					                  		<a href="#stay_here">
+					                  			<i class="fa fa-gears fa-lg"></i>&nbsp;&nbsp;&nbsp;Course Resources
+					                  		</a>
+					                  	</li>
+						            </ul>
+						    	</div>
+							</div>
+							<hr>   			
+						</div>
+						<div class="col-md-9">
+							<div class="col-md-12">
+								<h3>Các thành phần giao diện 1&nbsp;&nbsp;&nbsp;<i class="fa fa-leanpub fa-lg" aria-hidden="true"></i></h3>
+								<hr>							
+								<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+									<div class="panel panel-default ">
+										<div class="panel-heading funix-panel-heading " role="tab" id="heading1">
+											<h4 class="panel-title ">
+												<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true" aria-controls="collapse1">
+													<i class="fa fa-pencil fa-lg" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Mục tiêu bài học
+												</a>
+											</h4>
+										</div>
+										<div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1">
+											<div class="panel-body funix-panel-body">
+												<h4>Mục tiêu bài học:</h4>
+												<p>Bài học này giới thiệu những kiến thức nền tảng về lập trình hướng đối tượng. Bài học giúp người học biết khái niệm thế nào là Lớp (Class), Đối tượng (Object). Bài học cũng hướng dẫn người học thực hiện được việc trừu tượng hóa được các lớp đối tượng và khởi tạo được các đối tượng trong lập trình.</p>
+												<h4>Chuẩn đầu ra:</h4>
+												<p>PRO192x_o8 - Hiểu thế nào là trừu tượng hóa và thực hiện được trừu tượng hóa được lớp cơ bản (Class)</p>
+												<p>PRO192x_o9 - Phân biệt được thế nào là lớp thế nào là đối tượng (Class & Object)</p>
+												<p>PRO192x_o10 - Sử dụng được contructor và khởi tạo được các đối tượng.</p>
+												<h4>Thời gian học:</h4>
+												<p>2h</p>
+												<h4>Chuẩn bị:</h4>
+												<p>- Đã cài đặt môi trường làm việc với ngôn ngữ lập trình Java (JDK và một IDE)</p>
+												<p>- Đã cài đặt plugin cho trình duyệt Chrome FUNiX Passport để xem nội dung ở tiếng Việt.</p>
+											</div>
+										</div>
+									</div>
+
+									<div class="panel panel-default">
+										<div class="panel-heading funix-panel-heading" role="tab" id="heading2">
+											<h4 class="panel-title">
+												<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="false" aria-controls="collapse2">
+													<i class="fa fa-film fa-lg" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Tổng quan về lập trình hướng đối tượng
+												</a>
+											</h4>
+										</div>
+										<div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
+											<div class="panel-body funix-panel-body">
+												<table>
+													<tr>
+														<th>Video</th>
+														<td>Tổng quan về lập trình hướng đối tượng</td>
+													</tr>
+													<tr>
+														<th>Độ dài</th>
+														<td>5p:26'</td>
+													</tr>
+													<tr>
+														<th>Nguồn</th>
+														<td>
+															<i class="fa fa-youtube-play fa-lg" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;<a href="https://www.lynda.com/">lynda.com</a>
+														</td>
+													</tr>
+													<tr>
+														<th>Nội dung</th>
+														<td>Giới thiệu về những khái niệm đầu tiên về lập trình hướng đối tượng và tại sao phải lập trình hướng đối tượng.</td>
+													</tr>
+												</table>
+												<hr>
+												<h3>VIDEO: TỔNG QUAN VỀ LẬP TRÌNH HƯỚNG ĐỐI TƯỢNG</h3>
+												<div class="embed-responsive embed-responsive-16by9">
+												 	<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/SS-9y0H3Si8"></iframe>
+												</div>
+												<div class="btn-group" role="group" aria-label="...">
+													<button type="button" class="btn btn-default">Download transcript</button>
+													<div class="btn-group" role="group">
+														<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+														.srt
+														<span class="caret"></span>
+														</button>
+														<ul class="dropdown-menu">
+															<li><a href="#stay_here">SubRip (.srt) file</a></li>
+															<li><a href="#stay_here">Text (.txt) file</a></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="panel panel-default">
+										<div class="panel-heading funix-panel-heading" role="tab" id="heading3">
+											<h4 class="panel-title">
+												<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#colapse3" aria-expanded="false" aria-controls="colapse3">
+												<i class="fa fa-film fa-lg" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Lớp và đối tượng
+												</a>
+											</h4>
+										</div>
+										<div id="colapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
+											<div class="panel-body funix-panel-body">
+												<table>
+													<tr>
+														<th>Video</th>
+														<td>Lớp và đối tượng</td>
+													</tr>
+													<tr>
+														<th>Độ dài</th>
+														<td>15p:31'</td>
+													</tr>
+													<tr>
+														<th>Nguồn</th>
+														<td>
+															<i class="fa fa-youtube-play fa-lg" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;ProgrammingKnowledge Chanel
+														</td>
+													</tr>
+													<tr>
+														<th>Nội dung</th>
+														<td>Giới thiệu về lớp và đối tượng và áp dụng trong lập trình Java.</td>
+													</tr>
+												</table>
+												<hr>
+												<h3>VIDEO: LỚP VÀ ĐỐI TƯỢNG</h3>												
+												<div class="embed-responsive embed-responsive-16by9">
+												 	<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ZHLdVRXIuC8"></iframe>
+												</div>
+												<div class="btn-group" role="group" aria-label="...">
+													<button type="button" class="btn btn-default">Download transcript</button>
+													<div class="btn-group" role="group">
+														<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+														.srt
+														<span class="caret"></span>
+														</button>
+														<ul class="dropdown-menu">
+															<li><a href="#stay_here">SubRip (.srt) file</a></li>
+															<li><a href="#stay_here">Text (.txt) file</a></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="panel panel-default">
+										<div class="panel-heading funix-panel-heading" role="tab" id="heading4">
+											<h4 class="panel-title">
+												<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="false" aria-controls="collapse4">
+													<i class="fa fa-film fa-lg" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Khởi tạo đối tượng(Constructor)
+												</a>
+											</h4>
+										</div>
+										<div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading4">
+											<div class="panel-body funix-panel-body">
+												<table>
+													<tr>
+														<th>Video</th>
+														<td>Khởi tạo đối tượng</td>
+													</tr>
+													<tr>
+														<th>Độ dài</th>
+														<td>10p:25'</td>
+													</tr>
+													<tr>
+														<th>Nguồn</th>
+														<td>
+															<i class="fa fa-youtube-play fa-lg" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;<a href="https://www.lynda.com/">lynda.com</a>
+														</td>
+													</tr>
+													<tr>
+														<th>Nội dung</th>
+														<td>Hướng dẫn người học khởi tạo đối tượng (Constructor).</td>
+													</tr>
+												</table>
+												<hr>
+												<h3>VIDEO: KHỞI TẠO ĐỐI TƯỢNG (CONSTRUCTOR)</h3>
+
+												<div class="embed-responsive embed-responsive-16by9">
+												 	<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/0Jc_rT7t1W8"></iframe>
+												</div>
+												<div class="btn-group" role="group" aria-label="...">
+													<button type="button" class="btn btn-default">Download transcript</button>
+													<div class="btn-group" role="group">
+														<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+														.srt
+														<span class="caret"></span>
+														</button>
+														<ul class="dropdown-menu">
+															<li><a href="#stay_here">SubRip (.srt) file</a></li>
+															<li><a href="#stay_here">Text (.txt) file</a></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="panel panel-default">
+										<div class="panel-heading funix-panel-heading" role="tab" id="heading5">
+											<h4 class="panel-title">
+												<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse5" aria-expanded="false" aria-controls="collapse5">
+												<i class="fa fa-film fa-lg" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Sử dụng từ khóa Static
+												</a>
+											</h4>
+										</div>
+										<div id="collapse5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading5">
+											<div class="panel-body funix-panel-body">
+												<table>
+													<tr>
+														<th>Video</th>
+														<td>Sử dụng từ khóa Static</td>
+													</tr>
+													<tr>
+														<th>Độ dài</th>
+														<td>7p:44'</td>
+													</tr>
+													<tr>
+														<th>Nguồn</th>
+														<td>
+															<i class="fa fa-youtube-play fa-lg" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;ProgrammingKnowledge Chanel
+														</td>
+													</tr>
+													<tr>
+														<th>Nội dung</th>
+														<td>Hướng dẫn sử dụng từ khóa Static trong Java.</td>
+													</tr>
+												</table>
+												<hr>
+												<h3>VIDEO: LỚP VÀ ĐỐI TƯỢNG</h3>
+
+												<div class="embed-responsive embed-responsive-16by9">
+												 	<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/n4axao9LWWE"></iframe>
+												</div>
+												<div class="btn-group" role="group" aria-label="...">
+													<button type="button" class="btn btn-default">Download transcript</button>
+													<div class="btn-group" role="group">
+														<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+														.srt
+														<span class="caret"></span>
+														</button>
+														<ul class="dropdown-menu">
+															<li><a href="#stay_here">SubRip (.srt) file</a></li>
+															<li><a href="#stay_here">Text (.txt) file</a></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="panel panel-default">
+										<div class="panel-heading funix-panel-heading" role="tab" id="heading6">
+											<h4 class="panel-title">
+												<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse6" aria-expanded="true" aria-controls="collapse6">
+													<i class="fa fa-leanpub fa-lg" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Bài tập rèn luyện
+												</a>
+											</h4>
+										</div>
+										<div id="collapse6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading6">
+											<div class="panel-body funix-panel-body">
+												<h4>Bài tập rèn luyện:</h4>
+												<h4>Hãy thực hành các phần sau trên Learn Java Online:</h4>
+												<a href="http://www.learnjavaonline.org/en/Objects">Learn Java Online  -  Objects</a>
+												<p>Thực hành những ví dụ trong video bài học trên máy tính của bạn hoặc trang web <a href="http://javalab.co/">Javalab.co</a>.</p>
+											</div>
+										</div>
+									</div>
+
+									<div class="panel panel-default">
+										<div class="panel-heading funix-panel-heading" role="tab" id="heading7">
+											<h4 class="panel-title">
+												<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse7" aria-expanded="true" aria-controls="collapse7">
+													<i class="fa fa-leanpub fa-lg" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Lý thuyết
+												</a>
+											</h4>
+										</div>
+										<div id="collapse7" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading7">
+											<div class="panel-body funix-panel-body">
+												<h4>Tài liệu đọc:</h4>
+												<p>Hãy đọc những phần tài liệu sau để hiểu lý thuyết đã áp dụng trong phần thực hành trước.</p>
+												<a href="http://www.tutorialspoint.com/java/java_object_classes.htm">Tutorials Point - Classes & Object</a>
+												<p>(Bạn nên nhấn vào từng link để mở các nội dung học này trên trình duyệt, sau đó học theo trình tự)</p>
+											</div>
+										</div>
+									</div>
+
+									<div class="panel panel-default">
+										<div class="panel-heading funix-panel-heading" role="tab" id="heading8">
+											<h4 class="panel-title">
+												<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse8" aria-expanded="true" aria-controls="collapse8">
+													<i class="fa fa-check fa-lg" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Quiz
+												</a>
+											</h4>
+										</div>
+										<div id="collapse8" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading8">
+											<div class="panel-body funix-panel-body">
+												<h4>QUIZ 5<span> (5/5 points)</span></h4>
+												<p>1. Mệnh đề nào đúng nhất về đối tượng (Object)?</p>
+												<form>
+													<input type="radio" id="radio1" name="radio" />
+  													<label for="radio1"><span></span> Là một thể hiện của lớp</label>
+
+													<input type="radio" id="radio2" name="radio" />
+  													<label for="radio2"><span></span> Là một kiểu dữ liệu nguyên thủy</label>
+
+  													<input type="radio" id="radio3" name="radio" />
+  													<label for="radio3"><span></span> Là một chuỗi ký tự</label>
+
+  													<input type="radio" id="radio4" name="radio" />
+  													<label for="radio4"><span></span> Không đáp án nào đúng</label>
+												</form>
+												<p>2. Xem xét đoạn code sau:</p>
+												<pre>      1. public class Test1 {
+      2. public float aMethod(float a, float b) {
+      3. }
+      4.
+      5. }</pre>
+												<p>Chọn những phương thức có thể thêm vào dòng số 4 của đoạn code trên? (Chọn 2)</p>
+												<form>
+													<input type="checkbox" id="checkbox1" name="checkbox" />
+  													<label for="checkbox1"><span></span> public int aMethod(int a, int b) { }</label>
+
+													<input type="checkbox" id="checkbox2" name="checkbox" />
+  													<label for="checkbox2"><span></span> public float aMethod(float a, float b) { }</label>
+
+  													<input type="checkbox" id="checkbox3" name="checkbox" />
+  													<label for="checkbox3"><span></span> public float aMethod(float c, float d) { }</label>
+
+  													<input type="checkbox" id="checkbox4" name="checkbox" />
+  													<label for="checkbox4"><span></span> private float aMethod(int a, int b, int c) { }</label>
+
+												</form>
+												<p>3. Xem đoạn code sau:</p>
+												<pre>    class Point {
+      int m_x, m_y;
+
+      public Point(int x, int y) { m_x = x; m_y = y; }
+      public Point() { this(10, 10); }
+      public int getX() { return m_x; }
+      public int getY() { return m_y; }
+
+      public static void main(String args[]) {
+        Point p = new Point();
+        System.out.println(p.getX());
+      }
+    } 
+  </pre>
+												<form>
+													<input type="radio" id="radio5" name="radio" />
+  													<label for="radio5"><span></span> 5</label>
+
+													<input type="radio" id="radio6" name="radio" />
+  													<label for="radio6"><span></span> 10</label>
+
+  													<input type="radio" id="radio7" name="radio" />
+  													<label for="radio7"><span></span> 20</label>
+
+  													<input type="radio" id="radio8" name="radio" />
+  													<label for="radio8"><span></span>  Lỗi biên dịch</label>
+												</form>
+												<p>4. Từ khóa nào làm cho biến thuộc một lớp mà không được xác định ở một thể hiện của lớp</p>
+												<form>
+													<input type="text" name="text" /> 													
+												</form>
+												<p>5. Màn hình sẽ hiển thị kết quả bao nhiêu</p>
+												<pre>    public class Frog {
+    static int count=0;
+    public Frog() { count++; }
+    public static void main(String[] args)
+      {
+          new Frog();
+          new Frog();
+          new Frog();
+          System.out.println("count=" + count);
+      }
+    }</pre>
+												<form>
+													<input type="radio" id="radio9" name="radio" />
+  													<label for="radio9"><span></span> count = 0</label>
+
+													<input type="radio" id="radio10" name="radio" />
+  													<label for="radio10"><span></span> count = 1</label>
+
+  													<input type="radio" id="radio11" name="radio" />
+  													<label for="radio11"><span></span> count = 2</label>
+
+  													<input type="radio" id="radio12" name="radio" />
+  													<label for="radio12"><span></span> count = 3</label>
+												</form>
+
+												<button type="button" class="btn btn-default">Check</button>
+
+											</div>
+										</div>
+									</div>
+								</div> <!-- End Panel Grp -->
+								
+							</div>
+							
+						</div>
+						<div class="col-md-12">				    		
+				    		<hr>				    		
+				    	</div>
+				    </div>
+				    <!-- End Tab 1 -->
+
+				    <!-- Tab 2 -->
+				    <div role="tabpanel" class="tab-pane" id="info">
+				    	<div class="col-md-12">
+				    		<h2>
+				    			<i class="fa fa-paper-plane" aria-hidden="true"></i>&nbsp;&nbsp;Giới thiệu khóa học&nbsp;&nbsp;<i class="fa fa-cloud" aria-hidden="true"></i>&nbsp;<i class="fa fa-cloud" aria-hidden="true"></i>&nbsp;<i class="fa fa-cloud" aria-hidden="true"></i>
+				    		</h2>
+				    		<hr>				    		
+				    	</div>
+					    <div class="col-md-3">					    	
+					    	<p class="text-justify"><span class="fa fa-graduation-cap fa-2x">&nbsp;&nbsp;&nbsp;</span>Từ kiến thức nền tảng vững chắc trong khoa học máy tính, sinh viên được tiếp cận đến những xu hướng lập trình hiện đại như lập trình di động và lập trình game. Sinh viên cũng có thể tạo nên được những ứng dụng game trên mobile và tham gia những dự án này ở một số công ty.</p>
+					    	<hr>
+					    	<h4 class="text-center">Cơ hội nghề nghiệp</h4>			    	
+					    	<p class="text-center big-text"><i class="fa fa-cloud-download fa-5x"></i></p>              	
+			              	<p><i class="fa fa-pencil-square-o">&nbsp;</i>Lập trình game/app di động mobile</p>
+			              	<p><i class="fa fa-pencil-square-o">&nbsp;</i>Hỗ trợ CNTT (IT Helpdesk Support)</p>
+			              	
+			            </div>
+						<div class="col-md-9">
+							<div class="col-md-12">
+								<h3>Course Updates & News&nbsp;&nbsp;&nbsp;<i class="fa fa-leanpub fa-lg" aria-hidden="true"></i></h3>
+								<hr>
+								<h5><i class="fa fa-calendar fa-lg" aria-hidden="true"></i>JUNE 1, 2016</h5>
+								<h4>Chào mừng các bạn đến với khóa học lập trình di động trên nền tảng Android!</h4>
+								<p>Android đang là hệ điều hành chiếm lĩnh thị trường thiết bị động hiện nay. Hàng trăm ngàn thiết bị từ ti vi, máy nghe nhạc... cho đến điện thoại di động đều có thể chạy trên nền Android. 
+</p>
+								<p>Với xu hướng ngày càng phát triển của Android, đã kéo theo nhu cầu tuyển dụng lập trình Android ngày càng khốc liệt. Và lập trình Android chính là cơ hội tuyệt vời nhất, đặc biệt là các bạn trẻ.</p>
+								<p>Nắm bắt được nhu cầu tuyển dụng lập trình Android ngày càng nóng, FUNiX xây dựng chương trình PRM391 giúp học viên sẽ đủ khả năng ứng tuyển vị trí lập trình Android tại các công ty. hoặc trở thành một Freelancer với mức lương tự do.</p>
+								<p>
+Để bắt đầu, hãy xem mục Courseware để đọc các nội dung tổng quan của khóa học ở Phần Giới thiệu. Phần giới thiệu sẽ giúp bạn có cái nhìn tổng quan về nội dung khóa học, cấu trúc, lịch trình và cách thức học khóa này. </p>
+								<p>Ngoài ra, chúng tôi hiểu bạn có thể gặp phải những lỗi kỹ thuật do sự khác biệt về các phần mềm sử dụng. Do đó chúng tôi khuyến khích bạn phản hồi cả về vấn đề kỹ thuật và nội dung trong xRoom nếu thấy có bất cứ điều gì khiến bạn bối rối hoặc không hoạt động như ý bạn mong muốn. 
+</p>				
+								<p>Một lần nữa, chào mừng và cám ơn bạn đã tham gia khóa học. Chúc bạn đạt được kết quả tốt nhất! </p>
+								<p>FUNiX.</p>
+							</div>													
+						</div>
+						<div class="col-md-12">				    		
+				    		<hr>				    		
+				    	</div>
+				    </div>
+				    <!-- End Tab 2 -->
+
+				    <!-- Tab 3 -->
+				    <div role="tabpanel" class="tab-pane" id="progression">
+				    	<div class="col-md-12">
+				    		<h2>
+				    			<i class="fa fa-paper-plane" aria-hidden="true"></i>&nbsp;&nbsp;Giới thiệu khóa học&nbsp;&nbsp;<i class="fa fa-cloud" aria-hidden="true"></i>&nbsp;<i class="fa fa-cloud" aria-hidden="true"></i>&nbsp;<i class="fa fa-cloud" aria-hidden="true"></i>
+				    		</h2>
+				    		<hr>
+				    	</div>
+					    <div class="col-md-3">					    	
+					    	<h3><i class="fa fa-user">&nbsp;&nbsp;</i>Nguyễn Nam Hiếu</h3>
+					    	<h5><i class="fa fa-codepen">&nbsp;&nbsp;</i>hieunnSE00140x</h5>
+					    	<hr>
+					    	<h4><i class="fa fa-pencil-square-o">&nbsp;&nbsp;</i>Quiz: <i>16/16</i></h4>					
+			              	<h4><i class="fa fa-pencil-square-o">&nbsp;&nbsp;</i>Question: <i>60</i></h4>		              	
+			              	<h4><i class="fa fa-pencil-square-o">&nbsp;&nbsp;</i>Lab: <i>none</i></h4>
+			              	<h4><i class="fa fa-pencil-square-o">&nbsp;&nbsp;</i>Assignment: <i>4/4</i></h4>
+			              	<h4><i class="fa fa-pencil-square-o">&nbsp;&nbsp;</i>Total: <strong><i>100%</i></strong> </h4>
+			              	
+						</div>
+						<div class="col-md-9">
+							<div class="col-md-12">
+								<h3>Course Progress for Student&nbsp;&nbsp;&nbsp;<i class="fa fa-bar-chart fa-lg" aria-hidden="true"></i></h3>
+								<hr>
+								<div class="progression">
+								<h3>Course Progress show here .....</h3>	
+								</div>							
+							</div>						
+						</div>
+						<div class="col-md-12">				    		
+				    		<hr>				    		
+				    	</div>
+				    </div>
+				    <!-- End Tab 3 -->		    
+				</div>
+				<!-- End Tab panes -->						
+			</section>		
+			<!-- End section-->
+
+			<!-- Footer -->
+			<footer>
+				<div class="funix-footer row no-margin" role="navigation">		                
+	                <div class="col-md-3 col-sm-4 funix-footer-link">	                                    
+	                    <h2>CONTACT</h2>                    	                    
+						<p>
+	                        <span class="fa fa-phone fa-2x">&nbsp;</span> Hotline:
+	                    </p>
+	                    <p>
+	                    	04.7300.5656 
+	                    </p>							
+						<p>
+	                        <span class="fa fa-envelope fa-2x">&nbsp;</span> Email:
+	                    </p>
+						<p>
+							<a href="#stay_here">funix-support@fpt.edu.vn</a>  
+						</p>
+	                </div>
+	               	<div class="col-md-3 col-sm-4 funix-footer-link">
+	                    <h2 class="">COMPANY</h2>
+	                    
+	                    <a href="#stay_here"><p><span class="fa fa-graduation-cap fa-2x">&nbsp;&nbsp;&nbsp;</span> X-TER</p></a>
+	                    <a href="#stay_here"><p><span class="fa fa-users fa-2x">&nbsp;&nbsp;&nbsp;</span> MENTOR</p></a>
+	                    <a href="#stay_here"><p><span class="fa fa-soundcloud fa-2x">&nbsp;&nbsp;&nbsp;</span> EXPERT</p></a>
+	                    
+	                </div>
+	                <div class="col-md-3 col-sm-4 funix-footer-link">
+	                    <h2 class="">SUPPORT</h2>
+	                    
+	                    <a href="#stay_here"><p><span class="fa fa-question fa-2x">&nbsp;&nbsp;&nbsp;</span> HANAH</p></a>
+	                    <a href="#stay_here"><p><span class="fa fa-user fa-2x">&nbsp;&nbsp;&nbsp;</span> LAURA</p></a>
+	                    <a href="#stay_here"><p><span class="fa fa-coffee fa-2x">&nbsp;&nbsp;&nbsp;</span> FUNiX</p></a>
+	                    
+	                </div> 
+	                <div class="col-md-3 col-sm-12">
+	                	<div class="col-md-12">
+	                		<a href="https://www.funix.edu.vn/" target="_blank">
+	                			<img src="assets/img/logo3.png">
+	                		</a>
+	                	</div>					                		                	
+	                	<hr>
+	                    <ul class="social-network social-circle">
+	                        <li><a href="#stay_here" target="_blank" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
+	                        <li><a href="https://www.facebook.com/daihocfunix/?fref=ts" target="_blank" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>                        
+	                        <li><a href="#stay_here" target="_blank" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+	                        <li><a href="#stay_here" target="_blank" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                    	</ul>
+	                </div>
+			</footer>
+			<!-- End Footer -->			
+		</div>
+		<!-- End Container -->
+		<script type="text/javascript" src="assets/js/jquery.min.js" type="text/javascript"></script>
+        <script type="text/javascript" src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+        <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="assets/js/bootstrap.js"></script>
+	    <script type="text/javascript" src="assets/js/docs.js"></script>
+	    <script type="text/javascript" src="assets/js/jquery.cookie.js"></script>
+	    <script type="text/javascript" src="assets/js/scripts.js"></script>		
+	</body>
+</html>
