@@ -28,6 +28,8 @@ $(document).ready(function() {
 //     var anchor = location.hash || $("a[data-toggle=tab]").first().attr("href");
 //     $('a[href=' + anchor + ']').tab('show');
 // });
-
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
 
 

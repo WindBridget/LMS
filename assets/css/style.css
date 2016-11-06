@@ -1,5 +1,5 @@
+/*Create by Nguyễn Nam Hiếu*/
 body{
-	
 	background: #f9f9f9 url(../img/white_texture.jpg) repeat top left;
 	color: #333;
 	font-family: 'Myriad Pro', Arial, sans-serif;
@@ -207,11 +207,11 @@ body{
     right: 30px;
 }
 .index:hover{
-	-webkit-transform: scale(1.2) rotate(720deg);
-	-moz-transform: scale(1.2) rotate(720deg);
-	-o-transform: scale(1.2) rotate(720deg);
-	-ms-transform: scale(1.2) rotate(720deg);
-	transform: scale(1.2) rotate(720deg);
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	transform: scale(1.2);
 
 }
 .index a{
