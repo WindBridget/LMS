@@ -248,9 +248,8 @@ input[type="checkbox"]:checked + label span{
 	color: #2c3135;
 	background-color: #f8f8f8;
 }
-
 .leader-board table{
-	border: 10px solid #fff;
+	border: 10px solid #f5f5f5;
 	border-radius: 5px;
 }
 
