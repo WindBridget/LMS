@@ -2,21 +2,21 @@
 body{
 	background: #f9f9f9 url(../img/white_texture.jpg) repeat top left;	
 	font-family: 'Myriad Pro', Arial, sans-serif;
-	font-size: 16px;	
+	font-size: 16px;
+	max-width: 1600px;
+	margin: auto;	
 }
 .funix-tabs li.active>a,
 .funix-tabs li.active>a:hover,
 .funix-tabs li.active>a:focus,
 .tabs-toggle,
 .content,
-.index,
 .leader-board tr:nth-of-type(1),
-.social-circle li a,
 .nav-side-menu,
 .nav-side-menu .brand,
 input[type="radio"]:checked + label span,
 input[type="checkbox"]:checked + label span{
-	background-color: #2c3135;	
+	background-color: #0c51a1;	
 }
 .funix-nax,
 .funix-footer{
@@ -85,7 +85,7 @@ input[type="checkbox"]:checked + label span{
 .funix-tabs li>a,
 .funix-tabs li>a:hover,
 .funix-tabs li>a:focus{
-	color: #2c3135;
+	color: #0c51a1;
 	background-color: #f5f5f5;
 	border-color: transparent;
 	border-radius: 10px 10px 0 0;
@@ -195,6 +195,7 @@ input[type="checkbox"]:checked + label span{
 	transform: scale(1.2) ;
 }
 .index {
+	background-color: #2c3135;
 	z-index: 300;	   
 	border-radius: 50%; 
 	padding: 10px;
@@ -336,6 +337,7 @@ a.socialIcon:hover, .socialHoverClass {
 }
 
 .social-circle li a {
+	background-color: #2c3135;
 	display:inline-block;
 	color: #fff;
 	position:relative;
